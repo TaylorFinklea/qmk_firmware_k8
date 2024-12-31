@@ -4835,7 +4835,7 @@ END GROUP
 .iplt           0x0800d774        0x0
  .iplt          0x0800d774        0x0 .build/obj_keychron_k8_pro_ansi_rgb_k8/matrix.o
 
-.rodata         0x0800d774     0x14b0
+.rodata         0x0800d774     0x157c
                 0x0800d774                        __rodata_base__ = .
  *(.rodata)
  .rodata        0x0800d774        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/bluetooth/ckbt51.o
@@ -4878,142 +4878,142 @@ END GROUP
                 0x0800d9e6      0x15c .build/obj_keychron_k8_pro_ansi_rgb_k8/keyboards/keychron/k8_pro/ansi/rgb/rgb.o
                 0x0800d9e6                g_ckled2001_leds
  .rodata.keymaps
-                0x0800db42      0x8c4 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_introspection.o
+                0x0800db42      0x990 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_introspection.o
                 0x0800db42                keymaps
  .rodata.process_record_quantum.str1.1
-                0x0800e406       0x3d .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/quantum.o
+                0x0800e4d2       0x3d .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/quantum.o
  .rodata.CSWTCH.14
-                0x0800e406        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action.o
- *fill*         0x0800e409        0x1 
+                0x0800e4d2        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action.o
+ *fill*         0x0800e4d5        0x1 
  .rodata.CSWTCH.15
-                0x0800e40a       0x36 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action.o
+                0x0800e4d6       0x36 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action.o
  .rodata.CSWTCH.1
-                0x0800e440        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_common.o
- *fill*         0x0800e443        0x1 
+                0x0800e50c        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_common.o
+ *fill*         0x0800e50f        0x1 
  .rodata.CSWTCH.2
-                0x0800e444       0x36 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_common.o
+                0x0800e510       0x36 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_common.o
  .rodata.b_m16_interleave
-                0x0800e47a        0x8 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix.o
- *fill*         0x0800e482        0x2 
+                0x0800e546        0x8 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix.o
+ *fill*         0x0800e54e        0x2 
  .rodata.rgb_matrix_driver
-                0x0800e484       0x18 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix_drivers.o
-                0x0800e484                rgb_matrix_driver
+                0x0800e550       0x18 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix_drivers.o
+                0x0800e550                rgb_matrix_driver
  .rodata.CIE1931_CURVE
-                0x0800e49c      0x100 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/led_tables.o
-                0x0800e49c                CIE1931_CURVE
+                0x0800e568      0x100 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/led_tables.o
+                0x0800e568                CIE1931_CURVE
  .rodata.ascii_to_altgr_lut
-                0x0800e59c       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
-                0x0800e59c                ascii_to_altgr_lut
+                0x0800e668       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
+                0x0800e668                ascii_to_altgr_lut
  .rodata.ascii_to_dead_lut
-                0x0800e5ac       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
-                0x0800e5ac                ascii_to_dead_lut
+                0x0800e678       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
+                0x0800e678                ascii_to_dead_lut
  .rodata.ascii_to_keycode_lut
-                0x0800e5bc       0x80 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
-                0x0800e5bc                ascii_to_keycode_lut
+                0x0800e688       0x80 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
+                0x0800e688                ascii_to_keycode_lut
  .rodata.ascii_to_shift_lut
-                0x0800e63c       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
-                0x0800e63c                ascii_to_shift_lut
+                0x0800e708       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
+                0x0800e708                ascii_to_shift_lut
  .rodata.i2cconfig
-                0x0800e64c        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/i2c_master.a(i2c_master.o)
+                0x0800e718        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/i2c_master.a(i2c_master.o)
  .rodata.kbd_ep_config
-                0x0800e658       0x24 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
+                0x0800e724       0x24 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
  .rodata.shared_ep_config
-                0x0800e67c       0x24 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
+                0x0800e748       0x24 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
  .rodata.usbcfg
-                0x0800e6a0       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
+                0x0800e76c       0x10 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
  .rodata.CSWTCH.0
-                0x0800e6b0        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e77c        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
  .rodata.CSWTCH.1
-                0x0800e6bc        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
- *fill*         0x0800e6bf        0x1 
+                0x0800e788        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+ *fill*         0x0800e78b        0x1 
  .rodata.CSWTCH.2
-                0x0800e6c0        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e78c        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
  .rodata.CSWTCH.3
-                0x0800e6cc        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e798        0xc .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
  .rodata.CSWTCH.4
-                0x0800e6d8        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e7a4        0x3 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
  .rodata.ConfigurationDescriptor
-                0x0800e6db       0x5b .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e6db                ConfigurationDescriptor
+                0x0800e7a7       0x5b .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e7a7                ConfigurationDescriptor
  .rodata.DeviceDescriptor
-                0x0800e736       0x12 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e736                DeviceDescriptor
+                0x0800e802       0x12 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e802                DeviceDescriptor
  .rodata.KeyboardReport
-                0x0800e748       0x40 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e748                KeyboardReport
+                0x0800e814       0x40 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e814                KeyboardReport
  .rodata.LanguageString
-                0x0800e788        0x4 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e788                LanguageString
+                0x0800e854        0x4 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e854                LanguageString
  .rodata.ManufacturerString
-                0x0800e78c       0x14 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e78c                ManufacturerString
+                0x0800e858       0x14 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e858                ManufacturerString
  .rodata.ProductString
-                0x0800e7a0       0x22 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e7a0                ProductString
+                0x0800e86c       0x22 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e86c                ProductString
  .rodata.RawReport
-                0x0800e7c2       0x22 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e7c2                RawReport
+                0x0800e88e       0x22 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e88e                RawReport
  .rodata.SharedReport
-                0x0800e7e4       0xb6 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
-                0x0800e7e4                SharedReport
- *fill*         0x0800e89a        0x2 
- .rodata.vmt    0x0800e89c       0x28 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_driver.o
+                0x0800e8b0       0xb6 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+                0x0800e8b0                SharedReport
+ *fill*         0x0800e966        0x2 
+ .rodata.vmt    0x0800e968       0x28 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_driver.o
  .rodata.ram_areas
-                0x0800e8c4       0x80 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/common/startup/ARMCMx/compilers/GCC/crt1.o
+                0x0800e990       0x80 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/common/startup/ARMCMx/compilers/GCC/crt1.o
  .rodata.ch_core0_cfg
-                0x0800e944        0xc .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chsys.o
-                0x0800e944                ch_core0_cfg
+                0x0800ea10        0xc .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chsys.o
+                0x0800ea10                ch_core0_cfg
  .rodata.str1.1
-                0x0800e950        0x3 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chsys.o
+                0x0800ea1c        0x3 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chsys.o
  .rodata.chInstanceObjectInit.str1.1
-                0x0800e950        0xa .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chinstances.o
- .rodata.vmt    0x0800e950       0x28 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_serial.o
+                0x0800ea1c        0xa .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chinstances.o
+ .rodata.vmt    0x0800ea1c       0x28 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_serial.o
  .rodata.active_status
-                0x0800e978        0x2 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
+                0x0800ea44        0x2 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
  .rodata.halted_status
-                0x0800e97a        0x2 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
+                0x0800ea46        0x2 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
  .rodata.zero_status
-                0x0800e97c        0x2 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
- *fill*         0x0800e97e        0x2 
+                0x0800ea48        0x2 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
+ *fill*         0x0800ea4a        0x2 
  .rodata._stm32_dma_streams
-                0x0800e980      0x118 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/DMAv1/stm32_dma.o
-                0x0800e980                _stm32_dma_streams
+                0x0800ea4c      0x118 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/DMAv1/stm32_dma.o
+                0x0800ea4c                _stm32_dma_streams
  .rodata.default_config
-                0x0800ea98       0x10 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.o
+                0x0800eb64       0x10 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.o
  .rodata.ep0config
-                0x0800eaa8       0x24 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.o
+                0x0800eb74       0x24 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.o
  .rodata.gpio_default_config
-                0x0800eacc       0x90 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/boards/ST_NUCLEO32_L432KC/board.o
+                0x0800eb98       0x90 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/boards/ST_NUCLEO32_L432KC/board.o
  .rodata._exit.str1.1
-                0x0800eb5c        0x5 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/various/syscalls.o
+                0x0800ec28        0x5 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/various/syscalls.o
  .rodata._kill.str1.1
-                0x0800eb5c        0x5 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/various/syscalls.o
+                0x0800ec28        0x5 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/various/syscalls.o
  .rodata.str1.4
-                0x0800eb5c       0xc5 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-rand.o)
+                0x0800ec28       0xc5 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-rand.o)
                                  0x4a (size before relaxing)
  .rodata.str1.4
-                0x0800ec21       0x43 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-assert.o)
+                0x0800eced       0x43 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-assert.o)
  .rodata.str1.4
-                0x0800ec21       0x13 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x0800eced       0x13 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-vfprintf.o)
  .rodata.str1.4
-                0x0800ec21       0x25 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0800ec64                        . = ALIGN (0x4)
- *fill*         0x0800ec21        0x3 
-                0x0800ec24                        __rodata_end__ = .
+                0x0800eced       0x25 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0800ed30                        . = ALIGN (0x4)
+ *fill*         0x0800eced        0x3 
+                0x0800ecf0                        __rodata_end__ = .
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x0800ec24        0x8
-                0x0800ec24                        __exidx_base__ = .
-                0x0800ec24                        __exidx_start = .
+.ARM.exidx      0x0800ecf0        0x8
+                0x0800ecf0                        __exidx_base__ = .
+                0x0800ecf0                        __exidx_start = .
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0800ec24        0x8 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x0800ec2c                        __exidx_end__ = .
-                0x0800ec2c                        __exidx_end = .
+ .ARM.exidx     0x0800ecf0        0x8 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x0800ecf8                        __exidx_end__ = .
+                0x0800ecf8                        __exidx_end = .
 
-.rel.dyn        0x0800ec2c        0x0
- .rel.iplt      0x0800ec2c        0x0 .build/obj_keychron_k8_pro_ansi_rgb_k8/matrix.o
+.rel.dyn        0x0800ecf8        0x0
+ .rel.iplt      0x0800ecf8        0x0 .build/obj_keychron_k8_pro_ansi_rgb_k8/matrix.o
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -5021,10 +5021,10 @@ END GROUP
 .eh_frame
  *(.eh_frame)
 
-.data           0x20000c00      0x420 load address 0x0800ec2c
+.data           0x20000c00      0x420 load address 0x0800ecf8
                 [!provide]                        PROVIDE (_textdata = LOADADDR (.data))
                 [!provide]                        PROVIDE (_data = .)
-                0x0800ec2c                        __textdata_base__ = LOADADDR (.data)
+                0x0800ecf8                        __textdata_base__ = LOADADDR (.data)
                 0x20000c00                        __data_base__ = .
  *(.data)
  .data          0x20000c00       0x64 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-impure.o)
@@ -5131,10 +5131,10 @@ END GROUP
                 [!provide]                        PROVIDE (_edata = .)
                 0x20001020                        __data_end__ = .
 
-.igot.plt       0x20001020        0x0 load address 0x0800f04c
+.igot.plt       0x20001020        0x0 load address 0x0800f118
  .igot.plt      0x20001020        0x0 .build/obj_keychron_k8_pro_ansi_rgb_k8/matrix.o
 
-.bss            0x20001020     0x5900 load address 0x0800f04c
+.bss            0x20001020     0x5900 load address 0x0800f118
                 0x20001020                        __bss_base__ = .
  *(.bss)
  .bss           0x20001020        0x8 /opt/homebrew/Cellar/arm-none-eabi-gcc@8/8.5.0_2/lib/arm-none-eabi-gcc/8/gcc/arm-none-eabi/8.5.0/../../../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
@@ -5533,14 +5533,14 @@ END GROUP
                 0x00000000                        __flash7_size__ = LENGTH (flash7)
                 0x00000000                        __flash7_end__ = (__flash7_base__ + __flash7_size__)
 
-.ram0_init      0x20006920        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram0_init_text__ = LOADADDR (.ram0_init)
+.ram0_init      0x20006920        0x0 load address 0x0800f118
+                0x0800f118                        __ram0_init_text__ = LOADADDR (.ram0_init)
                 0x20006920                        __ram0_init__ = .
  *(.ram0_init)
  *(.ram0_init.*)
                 0x20006920                        . = ALIGN (0x4)
 
-.ram0           0x20006920        0x0 load address 0x0800f04c
+.ram0           0x20006920        0x0 load address 0x0800f118
                 0x20006920                        __ram0_clear__ = .
  *(.ram0_clear)
  *(.ram0_clear.*)
@@ -5551,14 +5551,14 @@ END GROUP
                 0x20006920                        . = ALIGN (0x4)
                 0x20006920                        __ram0_free__ = .
 
-.ram1_init      0x00000000        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram1_init_text__ = LOADADDR (.ram1_init)
+.ram1_init      0x00000000        0x0 load address 0x0800f118
+                0x0800f118                        __ram1_init_text__ = LOADADDR (.ram1_init)
                 0x00000000                        __ram1_init__ = .
  *(.ram1_init)
  *(.ram1_init.*)
                 0x00000000                        . = ALIGN (0x4)
 
-.ram1           0x00000000        0x0 load address 0x0800f04c
+.ram1           0x00000000        0x0 load address 0x0800f118
                 0x00000000                        __ram1_clear__ = .
  *(.ram1_clear)
  *(.ram1_clear.*)
@@ -5569,14 +5569,14 @@ END GROUP
                 0x00000000                        . = ALIGN (0x4)
                 0x00000000                        __ram1_free__ = .
 
-.ram2_init      0x00000000        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram2_init_text__ = LOADADDR (.ram2_init)
+.ram2_init      0x00000000        0x0 load address 0x0800f118
+                0x0800f118                        __ram2_init_text__ = LOADADDR (.ram2_init)
                 0x00000000                        __ram2_init__ = .
  *(.ram2_init)
  *(.ram2_init.*)
                 0x00000000                        . = ALIGN (0x4)
 
-.ram2           0x00000000        0x0 load address 0x0800f04c
+.ram2           0x00000000        0x0 load address 0x0800f118
                 0x00000000                        __ram2_clear__ = .
  *(.ram2_clear)
  *(.ram2_clear.*)
@@ -5587,14 +5587,14 @@ END GROUP
                 0x00000000                        . = ALIGN (0x4)
                 0x00000000                        __ram2_free__ = .
 
-.ram3_init      0x00000000        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram3_init_text__ = LOADADDR (.ram3_init)
+.ram3_init      0x00000000        0x0 load address 0x0800f118
+                0x0800f118                        __ram3_init_text__ = LOADADDR (.ram3_init)
                 0x00000000                        __ram3_init__ = .
  *(.ram3_init)
  *(.ram3_init.*)
                 0x00000000                        . = ALIGN (0x4)
 
-.ram3           0x00000000        0x0 load address 0x0800f04c
+.ram3           0x00000000        0x0 load address 0x0800f118
                 0x00000000                        __ram3_clear__ = .
  *(.ram3_clear)
  *(.ram3_clear.*)
@@ -5605,14 +5605,14 @@ END GROUP
                 0x00000000                        . = ALIGN (0x4)
                 0x00000000                        __ram3_free__ = .
 
-.ram4_init      0x00000000        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram4_init_text__ = LOADADDR (.ram4_init)
+.ram4_init      0x00000000        0x0 load address 0x0800f118
+                0x0800f118                        __ram4_init_text__ = LOADADDR (.ram4_init)
                 0x00000000                        __ram4_init__ = .
  *(.ram4_init)
  *(.ram4_init.*)
                 0x00000000                        . = ALIGN (0x4)
 
-.ram4           0x00000000        0x0 load address 0x0800f04c
+.ram4           0x00000000        0x0 load address 0x0800f118
                 0x00000000                        __ram4_clear__ = .
  *(.ram4_clear)
  *(.ram4_clear.*)
@@ -5623,14 +5623,14 @@ END GROUP
                 0x00000000                        . = ALIGN (0x4)
                 0x00000000                        __ram4_free__ = .
 
-.ram5_init      0x00000000        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram5_init_text__ = LOADADDR (.ram5_init)
+.ram5_init      0x00000000        0x0 load address 0x0800f118
+                0x0800f118                        __ram5_init_text__ = LOADADDR (.ram5_init)
                 0x00000000                        __ram5_init__ = .
  *(.ram5_init)
  *(.ram5_init.*)
                 0x00000000                        . = ALIGN (0x4)
 
-.ram5           0x00000000        0x0 load address 0x0800f04c
+.ram5           0x00000000        0x0 load address 0x0800f118
                 0x00000000                        __ram5_clear__ = .
  *(.ram5_clear)
  *(.ram5_clear.*)
@@ -5641,14 +5641,14 @@ END GROUP
                 0x00000000                        . = ALIGN (0x4)
                 0x00000000                        __ram5_free__ = .
 
-.ram6_init      0x00000000        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram6_init_text__ = LOADADDR (.ram6_init)
+.ram6_init      0x00000000        0x0 load address 0x0800f118
+                0x0800f118                        __ram6_init_text__ = LOADADDR (.ram6_init)
                 0x00000000                        __ram6_init__ = .
  *(.ram6_init)
  *(.ram6_init.*)
                 0x00000000                        . = ALIGN (0x4)
 
-.ram6           0x00000000        0x0 load address 0x0800f04c
+.ram6           0x00000000        0x0 load address 0x0800f118
                 0x00000000                        __ram6_clear__ = .
  *(.ram6_clear)
  *(.ram6_clear.*)
@@ -5659,14 +5659,14 @@ END GROUP
                 0x00000000                        . = ALIGN (0x4)
                 0x00000000                        __ram6_free__ = .
 
-.ram7_init      0x00000000        0x0 load address 0x0800f04c
-                0x0800f04c                        __ram7_init_text__ = LOADADDR (.ram7_init)
+.ram7_init      0x00000000        0x0 load address 0x0800f118
+                0x0800f118                        __ram7_init_text__ = LOADADDR (.ram7_init)
                 0x00000000                        __ram7_init__ = .
  *(.ram7_init)
  *(.ram7_init.*)
                 0x00000000                        . = ALIGN (0x4)
 
-.ram7           0x00000000        0x0 load address 0x0800f04c
+.ram7           0x00000000        0x0 load address 0x0800f118
                 0x00000000                        __ram7_clear__ = .
  *(.ram7_clear)
  *(.ram7_clear.*)
@@ -5677,11 +5677,11 @@ END GROUP
                 0x00000000                        . = ALIGN (0x4)
                 0x00000000                        __ram7_free__ = .
 
-.flash0         0x0800f04c        0x0
-                0x0800f04c                        __flash0_init__ = .
+.flash0         0x0800f118        0x0
+                0x0800f118                        __flash0_init__ = .
  *(.flash0_init)
  *(.flash0_init.*)
-                0x0800f04c                        __flash0_free__ = .
+                0x0800f118                        __flash0_free__ = .
 
 .flash1         0x00000000        0x0
                 0x00000000                        __flash1_init__ = .
@@ -5734,7 +5734,7 @@ END GROUP
 OUTPUT(.build/keychron_k8_pro_ansi_rgb_k8.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000   0x10f642
+.debug_info     0x00000000   0x10f647
  .debug_info    0x00000000     0x34da .build/obj_keychron_k8_pro_ansi_rgb_k8/matrix.o
  .debug_info    0x000034da     0x406f .build/obj_keychron_k8_pro_ansi_rgb_k8/bluetooth/bluetooth.o
  .debug_info    0x00007549     0x3047 .build/obj_keychron_k8_pro_ansi_rgb_k8/bluetooth/report_buffer.o
@@ -5750,87 +5750,87 @@ LOAD linker stubs
  .debug_info    0x0002ac8d     0x252f .build/obj_keychron_k8_pro_ansi_rgb_k8/bluetooth/rtc_timer.o
  .debug_info    0x0002d1bc     0x5f5e .build/obj_keychron_k8_pro_ansi_rgb_k8/keyboards/keychron/k8_pro/k8_pro.o
  .debug_info    0x0003311a     0x2b7d .build/obj_keychron_k8_pro_ansi_rgb_k8/keyboards/keychron/k8_pro/ansi/rgb/rgb.o
- .debug_info    0x00035c97     0x5082 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_introspection.o
- .debug_info    0x0003ad19     0x5b0e .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/quantum.o
- .debug_info    0x00040827     0x28c8 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/led.o
- .debug_info    0x000430ef     0x6184 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action.o
- .debug_info    0x00049273     0x329b .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action_layer.o
- .debug_info    0x0004c50e     0x36c5 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action_tapping.o
- .debug_info    0x0004fbd3     0x2f5a .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action_util.o
- .debug_info    0x00052b2d     0x2a5d .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/eeconfig.o
- .debug_info    0x0005558a     0x3420 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keyboard.o
- .debug_info    0x000589aa     0x55f7 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_common.o
- .debug_info    0x0005dfa1     0x23a9 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keycode_config.o
- .debug_info    0x0006034a      0x9c7 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/logging/debug.o
- .debug_info    0x00060d11       0xc5 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/logging/sendchar.o
- .debug_info    0x00060dd6      0x156 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/logging/print.o
- .debug_info    0x00060f2c     0x2c6f .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/bootmagic/bootmagic_lite.o
- .debug_info    0x00063b9b     0x2812 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/bootmagic/magic.o
- .debug_info    0x000663ad     0x2f41 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/matrix_common.o
- .debug_info    0x000692ee     0x2d46 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/debounce/sym_defer_g.o
- .debug_info    0x0006c034      0x1a0 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/main.o
- .debug_info    0x0006c1d4     0x4b54 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/mousekey.o
- .debug_info    0x00070d28     0x2894 .build/obj_keychron_k8_pro_ansi_rgb_k8/eeprom_driver.o
- .debug_info    0x000735bc     0x2fa8 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/eeprom_stm32_l4.o
- .debug_info    0x00076564     0x270a .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/flash_stm32.o
- .debug_info    0x00078c6e      0xb44 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/color.o
- .debug_info    0x000797b2     0x760b .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix.o
- .debug_info    0x00080dbd     0x2e22 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix_drivers.o
- .debug_info    0x00083bdf       0x8e .build/obj_keychron_k8_pro_ansi_rgb_k8/lib/lib8tion/lib8tion.o
- .debug_info    0x00083c6d     0x2d18 .build/obj_keychron_k8_pro_ansi_rgb_k8/ckled2001.o
- .debug_info    0x00086985     0x4f8d .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_rgb.o
- .debug_info    0x0008b912      0x954 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/led_tables.o
- .debug_info    0x0008c266     0x4e80 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_magic.o
- .debug_info    0x000910e6     0x4d2a .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
- .debug_info    0x00095e10     0x272f .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/dip_switch.o
- .debug_info    0x0009853f     0x4ebf .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_grave_esc.o
- .debug_info    0x0009d3fe     0x5003 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_space_cadet.o
- .debug_info    0x000a2401     0x346a .build/obj_keychron_k8_pro_ansi_rgb_k8/i2c_master.a(i2c_master.o)
- .debug_info    0x000a586b     0x2b5c .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/host.o
- .debug_info    0x000a83c7     0x4c19 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/report.o
- .debug_info    0x000acfe0      0x291 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/usb_device_state.o
- .debug_info    0x000ad271     0x24b3 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/suspend.o
- .debug_info    0x000af724     0x2411 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/platform.o
- .debug_info    0x000b1b35     0x2622 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/suspend.o
- .debug_info    0x000b4157      0xceb .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/timer.o
- .debug_info    0x000b4e42     0x2721 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/bootloaders/stm32_dfu.o
- .debug_info    0x000b7563     0x44dc .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
- .debug_info    0x000bba3f     0x2936 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/chibios.o
- .debug_info    0x000be375     0x2ae6 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
- .debug_info    0x000c0e5b     0x38f8 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_driver.o
- .debug_info    0x000c4753      0xd0e .build/obj_keychron_k8_pro_ansi_rgb_k8/./lib/chibios/os/oslib/src/chmemcore.o
- .debug_info    0x000c5461      0x3d1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/common/startup/ARMCMx/compilers/GCC/crt1.o
- .debug_info    0x000c5832     0x11e9 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chsys.o
- .debug_info    0x000c6a1b      0x937 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chrfcu.o
- .debug_info    0x000c7352     0x22f1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chvt.o
- .debug_info    0x000c9643     0x12bf .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chschd.o
- .debug_info    0x000ca902      0xc21 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chinstances.o
- .debug_info    0x000cb523     0x1ffc .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chthreads.o
- .debug_info    0x000cd51f     0x1369 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chmtx.o
- .debug_info    0x000ce888     0x1c63 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chevents.o
- .debug_info    0x000d04eb     0x1e08 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/common/ports/ARMv7-M/chcore.o
- .debug_info    0x000d22f3     0x249d .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal.o
- .debug_info    0x000d4790     0x2751 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_st.o
- .debug_info    0x000d6ee1     0x3c7d .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_buffers.o
- .debug_info    0x000dab5e     0x36ae .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_queues.o
- .debug_info    0x000de20c     0x2c80 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_i2c.o
- .debug_info    0x000e0e8c     0x29f1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_rtc.o
- .debug_info    0x000e387d     0x311d .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_serial.o
- .debug_info    0x000e699a     0x436c .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
- .debug_info    0x000ead06     0x2860 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/common/ARMCMx/nvic.o
- .debug_info    0x000ed566     0x2c5e .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/STM32L4xx/stm32_isr.o
- .debug_info    0x000f01c4     0x2b07 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/STM32L4xx/hal_lld.o
- .debug_info    0x000f2ccb     0x2fcc .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/DMAv1/stm32_dma.o
- .debug_info    0x000f5c97     0x2656 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/EXTIv1/stm32_exti.o
- .debug_info    0x000f82ed     0x29a4 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/GPIOv3/hal_pal_lld.o
- .debug_info    0x000fac91     0x37a9 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/I2Cv2/hal_i2c_lld.o
- .debug_info    0x000fe43a     0x314a .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/RTCv2/hal_rtc_lld.o
- .debug_info    0x00101584     0x29c1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/SYSTICKv1/hal_st_lld.o
- .debug_info    0x00103f45     0x31d8 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.o
- .debug_info    0x0010711d     0x344f .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.o
- .debug_info    0x0010a56c     0x28f4 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/boards/ST_NUCLEO32_L432KC/board.o
- .debug_info    0x0010ce60     0x17b8 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/various/syscalls.o
- .debug_info    0x0010e618     0x102a .build/obj_keychron_k8_pro_ansi_rgb/platforms/chibios/syscall-fallbacks.o
+ .debug_info    0x00035c97     0x5087 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_introspection.o
+ .debug_info    0x0003ad1e     0x5b0e .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/quantum.o
+ .debug_info    0x0004082c     0x28c8 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/led.o
+ .debug_info    0x000430f4     0x6184 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action.o
+ .debug_info    0x00049278     0x329b .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action_layer.o
+ .debug_info    0x0004c513     0x36c5 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action_tapping.o
+ .debug_info    0x0004fbd8     0x2f5a .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/action_util.o
+ .debug_info    0x00052b32     0x2a5d .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/eeconfig.o
+ .debug_info    0x0005558f     0x3420 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keyboard.o
+ .debug_info    0x000589af     0x55f7 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keymap_common.o
+ .debug_info    0x0005dfa6     0x23a9 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/keycode_config.o
+ .debug_info    0x0006034f      0x9c7 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/logging/debug.o
+ .debug_info    0x00060d16       0xc5 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/logging/sendchar.o
+ .debug_info    0x00060ddb      0x156 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/logging/print.o
+ .debug_info    0x00060f31     0x2c6f .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/bootmagic/bootmagic_lite.o
+ .debug_info    0x00063ba0     0x2812 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/bootmagic/magic.o
+ .debug_info    0x000663b2     0x2f41 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/matrix_common.o
+ .debug_info    0x000692f3     0x2d46 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/debounce/sym_defer_g.o
+ .debug_info    0x0006c039      0x1a0 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/main.o
+ .debug_info    0x0006c1d9     0x4b54 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/mousekey.o
+ .debug_info    0x00070d2d     0x2894 .build/obj_keychron_k8_pro_ansi_rgb_k8/eeprom_driver.o
+ .debug_info    0x000735c1     0x2fa8 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/eeprom_stm32_l4.o
+ .debug_info    0x00076569     0x270a .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/flash_stm32.o
+ .debug_info    0x00078c73      0xb44 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/color.o
+ .debug_info    0x000797b7     0x760b .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix.o
+ .debug_info    0x00080dc2     0x2e22 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/rgb_matrix/rgb_matrix_drivers.o
+ .debug_info    0x00083be4       0x8e .build/obj_keychron_k8_pro_ansi_rgb_k8/lib/lib8tion/lib8tion.o
+ .debug_info    0x00083c72     0x2d18 .build/obj_keychron_k8_pro_ansi_rgb_k8/ckled2001.o
+ .debug_info    0x0008698a     0x4f8d .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_rgb.o
+ .debug_info    0x0008b917      0x954 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/led_tables.o
+ .debug_info    0x0008c26b     0x4e80 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_magic.o
+ .debug_info    0x000910eb     0x4d2a .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/send_string/send_string.o
+ .debug_info    0x00095e15     0x272f .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/dip_switch.o
+ .debug_info    0x00098544     0x4ebf .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_grave_esc.o
+ .debug_info    0x0009d403     0x5003 .build/obj_keychron_k8_pro_ansi_rgb_k8/quantum/process_keycode/process_space_cadet.o
+ .debug_info    0x000a2406     0x346a .build/obj_keychron_k8_pro_ansi_rgb_k8/i2c_master.a(i2c_master.o)
+ .debug_info    0x000a5870     0x2b5c .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/host.o
+ .debug_info    0x000a83cc     0x4c19 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/report.o
+ .debug_info    0x000acfe5      0x291 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/usb_device_state.o
+ .debug_info    0x000ad276     0x24b3 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/suspend.o
+ .debug_info    0x000af729     0x2411 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/platform.o
+ .debug_info    0x000b1b3a     0x2622 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/suspend.o
+ .debug_info    0x000b415c      0xceb .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/timer.o
+ .debug_info    0x000b4e47     0x2721 .build/obj_keychron_k8_pro_ansi_rgb_k8/platforms/chibios/bootloaders/stm32_dfu.o
+ .debug_info    0x000b7568     0x44dc .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_main.o
+ .debug_info    0x000bba44     0x2936 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/chibios.o
+ .debug_info    0x000be37a     0x2ae6 .build/obj_keychron_k8_pro_ansi_rgb_k8/usb_descriptor.o
+ .debug_info    0x000c0e60     0x38f8 .build/obj_keychron_k8_pro_ansi_rgb_k8/protocol/chibios/usb_driver.o
+ .debug_info    0x000c4758      0xd0e .build/obj_keychron_k8_pro_ansi_rgb_k8/./lib/chibios/os/oslib/src/chmemcore.o
+ .debug_info    0x000c5466      0x3d1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/common/startup/ARMCMx/compilers/GCC/crt1.o
+ .debug_info    0x000c5837     0x11e9 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chsys.o
+ .debug_info    0x000c6a20      0x937 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chrfcu.o
+ .debug_info    0x000c7357     0x22f1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chvt.o
+ .debug_info    0x000c9648     0x12bf .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chschd.o
+ .debug_info    0x000ca907      0xc21 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chinstances.o
+ .debug_info    0x000cb528     0x1ffc .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chthreads.o
+ .debug_info    0x000cd524     0x1369 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chmtx.o
+ .debug_info    0x000ce88d     0x1c63 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/rt/src/chevents.o
+ .debug_info    0x000d04f0     0x1e08 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/common/ports/ARMv7-M/chcore.o
+ .debug_info    0x000d22f8     0x249d .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal.o
+ .debug_info    0x000d4795     0x2751 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_st.o
+ .debug_info    0x000d6ee6     0x3c7d .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_buffers.o
+ .debug_info    0x000dab63     0x36ae .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_queues.o
+ .debug_info    0x000de211     0x2c80 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_i2c.o
+ .debug_info    0x000e0e91     0x29f1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_rtc.o
+ .debug_info    0x000e3882     0x311d .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_serial.o
+ .debug_info    0x000e699f     0x436c .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/src/hal_usb.o
+ .debug_info    0x000ead0b     0x2860 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/common/ARMCMx/nvic.o
+ .debug_info    0x000ed56b     0x2c5e .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/STM32L4xx/stm32_isr.o
+ .debug_info    0x000f01c9     0x2b07 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/STM32L4xx/hal_lld.o
+ .debug_info    0x000f2cd0     0x2fcc .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/DMAv1/stm32_dma.o
+ .debug_info    0x000f5c9c     0x2656 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/EXTIv1/stm32_exti.o
+ .debug_info    0x000f82f2     0x29a4 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/GPIOv3/hal_pal_lld.o
+ .debug_info    0x000fac96     0x37a9 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/I2Cv2/hal_i2c_lld.o
+ .debug_info    0x000fe43f     0x314a .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/RTCv2/hal_rtc_lld.o
+ .debug_info    0x00101589     0x29c1 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/SYSTICKv1/hal_st_lld.o
+ .debug_info    0x00103f4a     0x31d8 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USARTv2/hal_serial_lld.o
+ .debug_info    0x00107122     0x344f .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/ports/STM32/LLD/USBv1/hal_usb_lld.o
+ .debug_info    0x0010a571     0x28f4 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/hal/boards/ST_NUCLEO32_L432KC/board.o
+ .debug_info    0x0010ce65     0x17b8 .build/obj_keychron_k8_pro_ansi_rgb/lib/chibios/os/various/syscalls.o
+ .debug_info    0x0010e61d     0x102a .build/obj_keychron_k8_pro_ansi_rgb/platforms/chibios/syscall-fallbacks.o
 
 .debug_abbrev   0x00000000    0x16548
  .debug_abbrev  0x00000000      0x540 .build/obj_keychron_k8_pro_ansi_rgb_k8/matrix.o
